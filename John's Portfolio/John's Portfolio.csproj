@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>John_s_Portfolio</RootNamespace>
+    <AssemblyName>MyPortfolio</AssemblyName>
   </PropertyGroup>
 
 </Project>
