@@ -4,7 +4,11 @@ using System.Net;
 
 namespace John_s_Portfolio.Controllers
 {
+    //Change the name of this controller to suit your needs. 
 
+    //Additionally, change the name of the folder 'Projects' to one that suits your needs.
+
+    //Add functions below so you are able to view the newly added pages. 
     public class ProjectsController : Controller
     {
         //Creates a new page called Index(to view this page enter:
