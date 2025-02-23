@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using John_s_Portfolio.Models;
@@ -16,6 +12,7 @@ public class HomeController(ILogger<HomeController> logger) : Controller
     public IActionResult Index()
     {
         var DetailsLayer= new DetailsLayer();
+        //if you Change the Id variable, change the value below to match the stored value
         Details details = DetailsLayer.GetDetails(Id:1);
         return View(details);
     }
