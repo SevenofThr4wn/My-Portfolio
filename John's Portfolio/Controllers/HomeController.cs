@@ -8,11 +8,15 @@ public class HomeController(ILogger<HomeController> logger) : Controller
 {
     private readonly ILogger<HomeController> _logger = logger;
 
+    //Creates a new page called Index(Shows this page by default when loaded up)
     public IActionResult Index()
     {
         return View();
     }
 
+
+    // Creates a new page called Privacy(To view this page, either enter: https://localhost:7039/Home/Privacy
+    // or click on the Privacy link on the Default Page)
     public IActionResult Privacy()
     {
         return View();
