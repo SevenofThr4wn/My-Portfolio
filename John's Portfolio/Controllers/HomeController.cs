@@ -1,3 +1,7 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using John_s_Portfolio.Models;
@@ -11,7 +15,9 @@ public class HomeController(ILogger<HomeController> logger) : Controller
     //Creates a new page called Index(Shows this page by default when loaded up)
     public IActionResult Index()
     {
-        return View();
+        var DetailsLayer= new DetailsLayer();
+        Details details = DetailsLayer.GetDetails(Id:1);
+        return View(details);
     }
 
 
