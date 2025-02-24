@@ -12,11 +12,14 @@ namespace John_s_Portfolio.Models
     {
         //Creates a variable for the ID(which is basically useless)
         public int Id { get; set; }
-        //Creates a variable for the Name(for you to display your name)
+        //Creates a variable for Name(for you to display your name)
         public string Name { get; set; }
-        //Creates a variable for the Age(for you to display your Gender)
+        //Creates a variable for Gender(for you to display your Gender)
         public string Gender { get; set; }
-        //Creates a variable for the Age(for you to display your Email Address)
+        //Creates a variable for Email(for you to display your Email Address)
         public string EmailAddress { get; set; }
+
+        //Creates a variable for website(for you to display your website or bio, etc.)
+        public string WebsiteURL { get; set; }
     }
 }

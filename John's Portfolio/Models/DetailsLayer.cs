@@ -12,7 +12,8 @@
                 Id = 1,
                 Name = "John Eley",
                 Gender = "Male",
-                EmailAddress = "johneley798@gmail.com", 
+                EmailAddress = "johneley798@gmail.com",
+                WebsiteURL = "https://github.com/SevenofThr4wn"
             };
             return details;
         }

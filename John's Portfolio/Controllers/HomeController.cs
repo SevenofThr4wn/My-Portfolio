@@ -11,9 +11,9 @@ public class HomeController(ILogger<HomeController> logger) : Controller
     //Creates a new page called Index(Shows this page by default when loaded up)
     public IActionResult Index()
     {
-        var DetailsLayer= new DetailsLayer();
+        var DetailsLayer = new DetailsLayer();
         //if you Change the Id variable, change the value below to match the stored value
-        Details details = DetailsLayer.GetDetails(Id:1);
+        Details details = DetailsLayer.GetDetails(Id: 1);
         return View(details);
     }
 
