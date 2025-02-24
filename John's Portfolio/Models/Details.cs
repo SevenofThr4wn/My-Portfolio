@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
-
-namespace John_s_Portfolio.Models
+﻿namespace John_s_Portfolio.Models
 {
 
     //Creates Variables for which I can pull from and display on my webpage

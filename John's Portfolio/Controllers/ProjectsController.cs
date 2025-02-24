@@ -1,6 +1,4 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Net;
 
 namespace John_s_Portfolio.Controllers
 {
